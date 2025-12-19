@@ -1,1 +1,110 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: hsl(30, 18%, 87%);
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  font-family: "Outfit", sans-serif;
+}
+main {
+  background-color: hsl(0, 0%, 100%);
+  max-width: 700px;
+  border-radius: 15px;
+  padding: 35px;
+}
+p {
+  font-size: 16px;
+  color: hsl(24, 5%, 18%);
+}
+li,
+p,
+td {
+  color: hsl(30, 10%, 34%);
+}
+h1 {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  margin-top: 15px;
+}
+h1 + p {
+  margin-top: 15px;
+}
+.image-container img {
+  width: 100%;
+  border-radius: 10px;
+}
+.preparation-time {
+  background-color: hsl(330, 100%, 98%);
+  padding-left: 30px;
+  padding-top: 25px;
+  padding-bottom: 15px;
+  border-radius: 10px;
+  margin-top: 25px;
+}
+.preparation-time p {
+  color: hsl(332, 51%, 32%);
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.preparation-time ul {
+  padding-left: 15px;
+}
+.preparation-time ul li {
+  padding-bottom: 10px;
+}
+.preparation-time ul li::marker {
+  color: hsl(332, 51%, 32%);
+}
+.ingredients {
+  margin-top: 15px;
+}
+.ingredients ul {
+  padding-left: 15px;
+}
+.ingredients ul li {
+  padding-bottom: 10px;
+}
+.ingredients ul li::marker {
+  color: hsl(14, 45%, 36%);
+}
+h2 {
+  color: hsl(14, 45%, 36%);
+  padding-bottom: 15px;
+  padding-top: 15px;
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+}
+hr {
+  height: 0.1px;
+  margin-top: 15px;
+}
+.instructions ol {
+  padding-left: 15px;
+}
+.instructions ol li {
+  padding-bottom: 10px;
+}
+.instructions ol li::marker {
+  color: hsl(14, 45%, 36%);
+  font-weight: 700;
+}
+
+table {
+  width: 100%;
+  margin-top: 15px;
+}
+table tr td {
+  border-bottom: 0.5px solid hsl(14, 45%, 36%);
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+table tr td:nth-child(2) {
+  font-weight: 700;
+  color: hsl(14, 45%, 36%);
+}
 
