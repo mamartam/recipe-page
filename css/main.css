@@ -80,8 +80,9 @@ h2 {
   font-weight: 400;
 }
 hr {
-  height: 0.1px;
-  margin-top: 15px;
+  border: none;
+  border-top: 1px solid hsl(30, 18%, 87%);
+  margin: 20px 0;
 }
 .instructions ol {
   padding-left: 15px;
@@ -106,5 +107,8 @@ table tr td {
 table tr td:nth-child(2) {
   font-weight: 700;
   color: hsl(14, 45%, 36%);
+}
+table tr:last-child td {
+  border-bottom: none;
 }
 
