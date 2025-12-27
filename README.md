@@ -4,30 +4,20 @@ The layout and design idea come from Frontend Mentor, while the code
 implementation is my own.
 
 ## 📦 Technologies
-<ul>
-  <li> HTML5
-    <ul>
-      <li>semantic markup (main, section, table, ol, ul)</li>
-    </ul>
-  </li>
-  <li> CSS3
-    <ul>
-      <li>Flexbox (centering layout)</li>
-      <li>Box model (box-sizing)</li>
-      <li>Pseudo-elements (::marker)</li>
-      <li>Selectors (nth-child, adjacent sibling selector h1 + p)</li>
-      <li>Custom styling for lists, tables, and typography</li>
-    </ul>
-  </li>
-  <li>Google Fonts</li>
-  <li> Responsive design basics
-    <ul>
-      <li>meta viewport</li>
-      <li>fluid image (width: 100%)</li>
-      <li>max-width layout</li>
-    </ul>
-  </li>
-</ul>
+- HTML5
+   - semantic markup (main, section, table, ol, ul)</li>
+- CSS3
+   - Flexbox (centering layout)
+   - Box model (box-sizing)
+   - Pseudo-elements (::marker)
+   - Selectors (nth-child, adjacent sibling selector h1 + p)
+   - Custom styling for lists, tables, and typography
+- Google Fonts
+- Responsive design basics
+   - meta viewport
+   - fluid image (width: 100%)
+   - max-width layout
+
 
 ## 💻 The Process
 First, I reviewed the provided design and analyzed the layout to plan my workflow and decide where to start.
