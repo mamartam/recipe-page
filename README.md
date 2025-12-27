@@ -29,7 +29,7 @@ implementation is my own.
   </li>
 </ul>
 
-## The Process
+## 💻 The Process
 First, I reviewed the provided design and analyzed the layout to plan my workflow and decide where to start.
 
 I began by creating the HTML file and building the basic page structure. I added all the content that would be displayed on the page and wrapped it in appropriate HTML elements. I also used semantic HTML tags to improve the structure and readability of the markup.
@@ -42,11 +42,18 @@ While working on the lists, I encountered a question about how to style list mar
 
 Finally, I continuously compared the page with the original design and added small improvements to make the layout and styles as close to the mockup as possible.
 
-## What I Learned
+## 📚 What I Learned
 
 - How important it is to analyze the layout before starting development
 - How semantic HTML helps keep the structure clean and understandable
 - How to set up base CSS styles for more predictable layouts
 - How to style list markers using the "::marker" pseudo-element
 
+## 🚀 How It Can Be Improved?
 
+- Add a mobile-first approach and refine styles for smaller screen sizes
+- Improve accessibility by adding more ARIA attributes and enhancing keyboard navigation
+- Refactor CSS using variables for colors and fonts to improve maintainability
+- Introduce a more consistent class naming methodology (e.g. BEM)
+- Optimize images for better performance
+- Add simple hover and focus states to improve user experience
