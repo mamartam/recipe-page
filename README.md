@@ -47,3 +47,6 @@ Finally, I continuously compared the page with the original design and added sma
 - Introduce a more consistent class naming methodology (e.g. BEM)
 - Optimize images for better performance
 - Add simple hover and focus states to improve user experience
+
+## 🍿 Video
+https://github.com/user-attachments/assets/4f91af5a-38f4-4f22-855d-259b607e3c73
