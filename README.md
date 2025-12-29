@@ -5,17 +5,17 @@ implementation is my own.
 
 ## 📦 Technologies
 - HTML5
-   - semantic markup (main, section, table, ol, ul)</li>
+   - semantic markup (`<main>`, `<section>`, `<table>`, `<ol>`, `<ul>`)
 - CSS3
    - Flexbox (centering layout)
-   - Box model (box-sizing)
-   - Pseudo-elements (::marker)
-   - Selectors (nth-child, adjacent sibling selector h1 + p)
+   - Box model (`box-sizing`)
+   - Pseudo-elements (`::marker`)
+   - Selectors (`nth-child`, adjacent sibling selector `h1` + `p`)
    - Custom styling for lists, tables, and typography
 - Google Fonts
 - Responsive design basics
    - meta viewport
-   - fluid image (width: 100%)
+   - fluid image (`width: 100%`)
    - max-width layout
 
 
@@ -37,14 +37,14 @@ Finally, I continuously compared the page with the original design and added sma
 - How important it is to analyze the layout before starting development
 - How semantic HTML helps keep the structure clean and understandable
 - How to set up base CSS styles for more predictable layouts
-- How to style list markers using the "::marker" pseudo-element
+- How to style list markers using the `::marker` pseudo-element
 
 ## 🚀 How It Can Be Improved?
 
-- Add a mobile-first approach and refine styles for smaller screen sizes
+- Add a `mobile-first approach` and refine styles for smaller screen sizes
 - Improve accessibility by adding more ARIA attributes and enhancing keyboard navigation
 - Refactor CSS using variables for colors and fonts to improve maintainability
-- Introduce a more consistent class naming methodology (e.g. BEM)
+- Introduce a more consistent class naming methodology (e.g. `BEM`)
 - Optimize images for better performance
 - Add simple hover and focus states to improve user experience
 
