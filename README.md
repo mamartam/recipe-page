@@ -41,7 +41,6 @@ Finally, I continuously compared the page with the original design and added sma
 
 ## 🚀 How It Can Be Improved?
 
-- Add a `mobile-first approach` and refine styles for smaller screen sizes
 - Improve accessibility by adding more ARIA attributes and enhancing keyboard navigation
 - Refactor CSS using variables for colors and fonts to improve maintainability
 - Introduce a more consistent class naming methodology (e.g. `BEM`)
