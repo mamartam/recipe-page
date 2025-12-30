@@ -4,17 +4,23 @@
   padding: 0;
 }
 body {
-  background-color: hsl(30, 54%, 90%);
   display: flex;
   justify-content: center;
-  margin: 30px 10px
   font-family: "Outfit", sans-serif;
 }
 main {
   background-color: hsl(0, 0%, 100%);
-  max-width: 700px;
+  max-width: 100wh;
   border-radius: 15px;
-  padding: 35px;
+}
+.general-information,
+.ingredients,
+.instructions,
+.nutrition {
+  padding: 0px 35px 0px 35px;
+}
+.nutrition {
+  padding-bottom: 35px;
 }
 p {
   font-size: 16px;
@@ -35,15 +41,14 @@ h1 + p {
 }
 .image-container img {
   width: 100%;
-  border-radius: 10px;
 }
 .preparation-time {
   background-color: hsl(330, 100%, 98%);
-  padding-left: 30px;
-  padding-top: 25px;
+  padding-left: 20px;
+  padding-top: 20px;
   padding-bottom: 15px;
   border-radius: 10px;
-  margin-top: 25px;
+  margin-top: 20px;
 }
 .preparation-time p {
   color: hsl(332, 51%, 32%);
@@ -82,7 +87,7 @@ h2 {
 hr {
   border: none;
   border-top: 1px solid hsl(30, 18%, 87%);
-  margin: 20px 0;
+  margin: 20px 35px;
 }
 .instructions ol {
   padding-left: 15px;
@@ -112,3 +117,56 @@ table tr:last-child td {
   border-bottom: none;
 }
 
+@media (min-width: 600px) {
+  body {
+    background-color: hsl(30, 54%, 90%);
+    margin: 30px 10px;
+  }
+  main {
+    max-width: 700px;
+    padding: 35px;
+  }
+  .general-information,
+  .ingredients,
+  .instructions,
+  .nutrition {
+    padding: 0;
+  }
+  h1 {
+    margin-top: 15px;
+  }
+  .image-container img {
+    border-radius: 10px;
+  }
+  .preparation-time {
+    padding-left: 30px;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    margin-top: 25px;
+  }
+  .preparation-time p {
+    padding-bottom: 10px;
+  }
+  .preparation-time ul {
+    padding-left: 15px;
+  }
+  .preparation-time ul li {
+    padding-bottom: 10px;
+  }
+  .ingredients {
+    margin-top: 15px;
+  }
+  .ingredients ul {
+    padding-left: 15px;
+  }
+  .ingredients ul li {
+    padding-bottom: 10px;
+  }
+  hr {
+    margin: 20px 0;
+  }
+  .nutrition {
+    padding-bottom: 0;
+  }
+}
