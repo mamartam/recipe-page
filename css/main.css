@@ -10,7 +10,7 @@ body {
 }
 main {
   background-color: hsl(0, 0%, 100%);
-  max-width: 100wh;
+  max-width: 100wv;
   border-radius: 15px;
 }
 .general-information,
