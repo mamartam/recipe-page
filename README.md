@@ -5,11 +5,11 @@ implementation is my own.
 
 ## Table of contents
 
-- [Technologies](#Technologies)
-- [The Process](#The-Process)
-- [What I Learned](#What-I-Learned)
-- [How It Can Be Improved?](#How-It-Can-Be-Improved?)
-- [Video](#Video)
+- [Technologies](#technologies)
+- [The Process](#the-Process)
+- [What I Learned](#what-i-learned)
+- [How It Can Be Improved?](#wow-it-can-be-improved?)
+- [Video](#video)
 
 ## 📦 Technologies
 - HTML5
