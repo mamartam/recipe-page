@@ -3,14 +3,6 @@ This project was created based on a Frontend Mentor [https://www.frontendmentor.
 The layout and design idea come from Frontend Mentor, while the code
 implementation is my own.
 
-## Table of contents
-
-- [Technologies](#technologies)
-- [The Process](#the-Process)
-- [What I Learned](#what-i-learned)
-- [How It Can Be Improved?](#wow-it-can-be-improved?)
-- [Video](#video)
-
 ## 📦 Technologies
 - HTML5
    - semantic markup (`<main>`, `<section>`, `<table>`, `<ol>`, `<ul>`)
