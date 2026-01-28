@@ -1,15 +1,26 @@
+:root {
+  --color-light-cream: hsl(30, 54%, 90%);
+  --white: hsl(0, 0%, 100%);
+  --color-dark-brown: hsl(24, 5%, 18%);
+  --color-warm-gray: hsl(30, 10%, 34%);
+  --color-rose-light: hsl(330, 100%, 98%);
+  --color-berry: hsl(332, 51%, 32%);
+  --color-terracotta: hsl(14, 45%, 36%);
+  --color-light-beige: hsl(30, 18%, 87%);
+}
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 body {
+  background-color: var(--color-light-cream);
   display: flex;
   justify-content: center;
   font-family: "Outfit", sans-serif;
 }
 main {
-  background-color: hsl(0, 0%, 100%);
+  background-color: var(--white);
   max-width: 100vw;
   border-radius: 15px;
 }
@@ -24,12 +35,12 @@ main {
 }
 p {
   font-size: 16px;
-  color: hsl(24, 5%, 18%);
+  color: var(--color-dark-brown);
 }
 li,
 p,
 td {
-  color: hsl(30, 10%, 34%);
+  color: var(--color-warm-gray);
 }
 h1 {
   font-family: "Young Serif", serif;
@@ -43,7 +54,7 @@ h1 + p {
   width: 100%;
 }
 .preparation-time {
-  background-color: hsl(330, 100%, 98%);
+  background-color: var(--color-rose-light);
   padding-left: 20px;
   padding-top: 20px;
   padding-bottom: 15px;
@@ -51,7 +62,7 @@ h1 + p {
   margin-top: 20px;
 }
 .preparation-time p {
-  color: hsl(332, 51%, 32%);
+  color: var(--color-berry);
   font-weight: bold;
   padding-bottom: 10px;
 }
@@ -63,7 +74,7 @@ h1 + p {
   padding-bottom: 10px;
 }
 .preparation-time ul li::marker {
-  color: hsl(332, 51%, 32%);
+  color: var(--color-berry);
 }
 .ingredients {
   margin-top: 15px;
@@ -75,10 +86,10 @@ h1 + p {
   padding-bottom: 10px;
 }
 .ingredients ul li::marker {
-  color: hsl(14, 45%, 36%);
+  color: var(--color-terracotta);
 }
 h2 {
-  color: hsl(14, 45%, 36%);
+  color: var(--color-terracotta);
   padding-bottom: 15px;
   padding-top: 15px;
   font-family: "Young Serif", serif;
@@ -86,7 +97,7 @@ h2 {
 }
 hr {
   border: none;
-  border-top: 1px solid hsl(30, 18%, 87%);
+  border-top: 1px solid var(--color-light-beige);
   margin: 20px 35px;
 }
 .instructions ol {
@@ -96,7 +107,7 @@ hr {
   padding-bottom: 10px;
 }
 .instructions ol li::marker {
-  color: hsl(14, 45%, 36%);
+  color: var(--color-terracotta);
   font-weight: 700;
 }
 
@@ -105,13 +116,13 @@ table {
   margin-top: 15px;
 }
 table tr td {
-  border-bottom: 0.5px solid hsl(14, 45%, 36%);
+  border-bottom: 0.5px solid var(--color-terracotta);
   padding-top: 10px;
   padding-bottom: 10px;
 }
 table tr td:nth-child(2) {
   font-weight: 700;
-  color: hsl(14, 45%, 36%);
+  color: var(--color-terracotta);
 }
 table tr:last-child td {
   border-bottom: none;
@@ -119,7 +130,6 @@ table tr:last-child td {
 
 @media (min-width: 600px) {
   body {
-    background-color: hsl(30, 54%, 90%);
     margin: 30px 10px;
   }
   main {
